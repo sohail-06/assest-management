@@ -1,0 +1,29 @@
+{
+  "name": "assest-management",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "test": "test",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon --watch src --exec ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohail-06/assest-management.git"
+  },
+  "author": "Sohail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohail-06/assest-management/issues"
+  },
+  "homepage": "https://github.com/sohail-06/assest-management#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.2"
+  }
+}
