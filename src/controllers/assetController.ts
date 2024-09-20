@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import { assetModel } from "../../models/assetModel";
-import { assetZodSchema } from "../../zod/zodSchema";
-import { assetSchema } from "../../schema/asset";
+import { assetModel } from "../models/assetModel";
+import { assetZodSchema } from "../zod/zodSchema";
+import { assetSchema } from "../schema/asset";
 import { string } from "zod";
 
 export const getAllAsset = async (

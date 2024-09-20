@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from "express";
 import dbConnection from "./config/dbConnection";
-import assetRouter from "./routes/asset/assetRoutes";
+import assetRouter from "./routes/assetRoutes";
 
 const app = express();
 const PORT = process.env.PORT || 3000;

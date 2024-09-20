@@ -4,7 +4,7 @@ import {
   addAsset,
   updateAsset,
   deleteAsset,
-} from "../../controllers/asset/assetController";
+} from "../controllers/assetController";
 
 const assetRouter = express.Router();
 
